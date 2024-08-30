@@ -2,6 +2,11 @@ title: My GitHub Pages Site
 author: Your Name
 description: A simple website using GitHub Pages and Jekyll
 
+# If your site is in a subdirectory, set the baseurl
+# For example, if your repository name is "username.github.io", leave it empty
+# If it's "myproject", then set it to "/myproject"
+baseurl: ""
+
 # Build settings
 markdown: kramdown
 
