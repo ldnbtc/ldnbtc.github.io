@@ -2,6 +2,10 @@ title: My GitHub Pages Site
 author: Your Name
 description: A simple website using GitHub Pages and Jekyll
 
+# URL settings
+url: "https://ldnbtc.github.io" # Replace with your actual GitHub Pages URL
+baseurl: "" # Leave empty if your site is at the root of your domain
+
 # Build settings
 markdown: kramdown
 
@@ -10,10 +14,6 @@ source: .
 
 # Specify the directory where Jekyll will write files
 destination: ./_site
-
-# URL structure
-baseurl: "" # Leave empty if your site is at the root of your domain
-url: "https://yourusername.github.io" # Replace with your GitHub Pages URL
 
 # Set permalink structure for blog posts
 permalink: /blog/:year/:month/:day/:title/
