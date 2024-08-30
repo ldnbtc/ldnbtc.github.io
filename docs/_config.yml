@@ -2,11 +2,6 @@ title: My GitHub Pages Site
 author: Your Name
 description: A simple website using GitHub Pages and Jekyll
 
-# If your site is in a subdirectory, set the baseurl
-# For example, if your repository name is "username.github.io", leave it empty
-# If it's "myproject", then set it to "/myproject"
-baseurl: ""
-
 # Build settings
 markdown: kramdown
 
@@ -15,6 +10,13 @@ source: .
 
 # Specify the directory where Jekyll will write files
 destination: ./_site
+
+# URL structure
+baseurl: "" # Leave empty if your site is at the root of your domain
+url: "https://yourusername.github.io" # Replace with your GitHub Pages URL
+
+# Set permalink structure for blog posts
+permalink: /blog/:year/:month/:day/:title/
 
 # Exclude files from processing
 exclude:
@@ -25,6 +27,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-# Set permalink structure for blog posts
-permalink: /blog/:year/:month/:day/:title/
