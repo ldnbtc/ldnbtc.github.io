@@ -1,0 +1,18 @@
+---
+layout: post
+title: "My First Blog Post"
+date: 2024-08-29
+---
+
+# Welcome to my blog!
+
+This is my first blog post using GitHub Pages and Jekyll. 
+
+Jekyll offers powerful support for code snippets:
+
+```python
+def hello_world():
+    print("Hello, GitHub Pages!")
+```
+
+Stay tuned for more updates!
