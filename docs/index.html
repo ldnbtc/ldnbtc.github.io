@@ -1,28 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li><a href="{{ '/about' | relative_url }}">About</a></li>
-                <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+---
+layout: default
+title: Home
+---
 
-    <main>
-        {{ content }}
-    </main>
-
-    <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+<h1>Welcome to My GitHub Pages Site</h1>
+<p>This is the homepage of my website hosted on GitHub Pages.</p>
+<nav>
+  <ul>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    <li><a href="{{ '/about' | relative_url }}">About</a></li>
+    <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+  </ul>
+</nav>
+<h2>Recent Blog Posts</h2>
+<ul>
+  {% for post in site.posts limit:3 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span>{{ post.date | date_to_string }}</span>
+    </li>
+  {% endfor %}
+</ul>
