@@ -3,7 +3,7 @@ author: Your Name
 description: A simple website using GitHub Pages and Jekyll
 
 # URL settings
-url: "https://ldnbtc.github.io" # Replace with your actual GitHub Pages URL
+url: "https://ldnbtc.github.io" # Your actual GitHub Pages URL
 baseurl: "" # Leave empty if your site is at the root of your domain
 
 # Build settings
@@ -17,6 +17,10 @@ destination: ./_site
 
 # Set permalink structure for blog posts
 permalink: /blog/:year/:month/:day/:title/
+
+# Explicitly set Jekyll to use the GitHub Pages gem
+plugins:
+  - jekyll-github-metadata
 
 # Exclude files from processing
 exclude:
