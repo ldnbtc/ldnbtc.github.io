@@ -1,7 +1,25 @@
-<!-- _config.yml -->
 title: My GitHub Pages Site
 author: Your Name
 description: A simple website using GitHub Pages and Jekyll
 
 # Build settings
 markdown: kramdown
+
+# Specify the directory where Jekyll will read files
+source: .
+
+# Specify the directory where Jekyll will write files
+destination: ./_site
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Set permalink structure for blog posts
+permalink: /blog/:year/:month/:day/:title/
