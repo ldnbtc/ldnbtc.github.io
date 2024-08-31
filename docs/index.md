@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# Bitcoin in London
-
 ![Forest coin][def]
 [def]: /assets/forestcoin_nods.png
 
-Test
+# Forest City Bitcoin
+
+Learn about bitoin and financial freedom in the forest city!
