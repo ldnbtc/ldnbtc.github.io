@@ -3,11 +3,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color: #f2a900; /* Bitcoin orange */
     padding: 1rem;
+    color: white;
 }
 
 nav ul {
@@ -20,8 +22,29 @@ nav ul li {
     margin-right: 10px;
 }
 
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 main {
     padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+a {
+    color: #f2a900; /* Bitcoin orange for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -31,4 +54,24 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+h1, h2, h3 {
+    color: #4d4d4d;
+}
+
+/* Style for blog post excerpts */
+.post-excerpt {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post-excerpt h2 {
+    margin-bottom: 0.5rem;
+}
+
+.post-date {
+    color: #777;
+    font-size: 0.9em;
 }
