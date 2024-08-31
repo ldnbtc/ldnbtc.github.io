@@ -8,4 +8,4 @@ title: Home
 
 # Forest City Bitcoin
 
-Learn about bitoin and financial freedom in the forest city!
+Learn about bitcoin and financial freedom in the forest city!
