@@ -100,3 +100,7 @@ h1, h2, h3 {
     color: #777;
     font-size: 0.9em;
 }
+
+.text-page {
+    margin-left: 0!important;
+}

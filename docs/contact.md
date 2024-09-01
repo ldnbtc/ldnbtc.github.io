@@ -4,6 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
+<body class="text-page">
+
 # Contact
 
 This site is maintained by Ben. You can contact me on [Signal][ben_signal] or on [nostr][ben_nostr].
