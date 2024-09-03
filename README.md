@@ -1,4 +1,4 @@
-# Forest City Bitcoin
+# London Bitcoin Guide
 
 This is a website for introducing Londoners to Bitcoin. Like Bitcoin, it's open source. If you have an edit or a suggestion for new material, there are two ways to contribute.
 
