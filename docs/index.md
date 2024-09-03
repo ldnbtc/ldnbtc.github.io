@@ -6,7 +6,7 @@ title: Home
 ![Forest coin][def]
 [def]: /assets/forestcoin_nods.png
 
-# Forest City Bitcoin
+# London Bitcoin Guide
 
 Welcome! This website is for bitcoiners in the Forest City, whether you are just learning or have been involved in bitcoin for a long time.
 
